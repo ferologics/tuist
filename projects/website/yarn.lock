@@ -2557,14 +2557,6 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.3.5.tgz#cfd228c74bcc7840a7fe9e507858486ee4d403dc"
   integrity sha512-XqsyXmifbnHOui1flSq4V7Lb3U+06Dbn2Q/leyr/cRd6Xgc0naiztdmD0MbXNvxgU51a2Ur9hyP4PnO5wE0yRg==
 
-"@theme-ui/css@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0.tgz#4fca3a2e730da232fbb67a1431bf7199ae6db977"
-  integrity sha512-+44BewW6nM4E4Fg4viutWV3y/AFxBDPgceStPoKNMWKB2h28KXFuEJIOyHse8sX39Keg/RIIcBk2q0EcDpB+LQ==
-  dependencies:
-    "@emotion/react" "^11.1.1"
-    csstype "^3.0.5"
-
 "@theme-ui/css@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.2.tgz#d5a165408d8fdf8e3080cae60ea10c5f140499b8"
@@ -8422,10 +8414,10 @@ gatsby-recipes@^0.9.2:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-redirect-from@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-redirect-from/-/gatsby-redirect-from-0.3.0.tgz#09c457772615ba962d0d0123cd3b8760952811ff"
-  integrity sha512-YC8sYrB1vCV4u3CTSqV4a4Ceo5Jj9MkBTA9kZdaHJrrEutOji/ta9Z93t4XFKvMlcHAB8s1lXnuXUBWobfrfyQ==
+gatsby-redirect-from@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/gatsby-redirect-from/-/gatsby-redirect-from-0.4.1.tgz#24a0fceb973a03e5549319e3121aad4759093880"
+  integrity sha512-rzg62vl9rK4aeR6vQ5Tst4d2TpVCPOIsVwcCQNH8ZVrmTt4F9gGQNK2TtgfAE5uLjdEswFYX2sF/uB/sD0Mu1A==
 
 gatsby-remark-check-links@^2.1.0:
   version "2.1.0"
