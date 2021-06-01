@@ -987,6 +987,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.14.0":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.12.6":
   version "7.13.11"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.13.11.tgz#d732c9f2780480d54ebb4d1e49c76b2466d40270"
@@ -2500,13 +2507,13 @@
     "@theme-ui/css" "^0.6.2"
     deepmerge "^4.2.2"
 
-"@theme-ui/color@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.3.5.tgz#69313ea41105ed2ce95c2407c4d463a5a88182ff"
-  integrity sha512-PVzZfo22woVJ7zeJqkWZba04jVuXL4fWmR14WMNdzRivFRs1gr9XD5fYymOmwI8quKDR2IpI5GHqUSybhzTLPQ==
+"@theme-ui/color@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.9.1.tgz#853531103bdb7f3725d9de4083a230d7ca14916f"
+  integrity sha512-+YdEPB+9GVdt28Q01P37Rk5lox/hsz7e6LXUv6rOjCL2uVo0FIBV85PS86SFscosOUtQ1wwesbwbaGSfq1zWIQ==
   dependencies:
-    "@theme-ui/css" "0.3.5"
-    polished "^3.4.1"
+    "@theme-ui/css" "0.9.1"
+    polished "^4.0.5"
 
 "@theme-ui/components@0.3.5":
   version "0.3.5"
@@ -2557,10 +2564,10 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.3.5.tgz#cfd228c74bcc7840a7fe9e507858486ee4d403dc"
   integrity sha512-XqsyXmifbnHOui1flSq4V7Lb3U+06Dbn2Q/leyr/cRd6Xgc0naiztdmD0MbXNvxgU51a2Ur9hyP4PnO5wE0yRg==
 
-"@theme-ui/css@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0.tgz#4fca3a2e730da232fbb67a1431bf7199ae6db977"
-  integrity sha512-+44BewW6nM4E4Fg4viutWV3y/AFxBDPgceStPoKNMWKB2h28KXFuEJIOyHse8sX39Keg/RIIcBk2q0EcDpB+LQ==
+"@theme-ui/css@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.9.1.tgz#f5f9b02b7de243acde5089011e7e7312afb5ae55"
+  integrity sha512-wVNJp7LIZhfXx7HdziJan0qfC8Iz6xcP/PVjFRVBupbmeGUkTM3UgfnsU3TkVQMLn0BxYe5AvaeOeKlVTx/k+g==
   dependencies:
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
@@ -13243,19 +13250,12 @@ pnp-webpack-plugin@^1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^3.4.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.7.1.tgz#d1addc87ee16eb5b413c6165eda37600cccb9c11"
-  integrity sha512-/QgHrNGYwIA4mwxJ/7FSvalUJsm7KNfnXiScVSEG2Xa5qxDeBn4nmdjN2pW00mkM2Tts64ktc47U8F7Ed1BRAA==
+polished@^4.0.5, polished@^4.1.1:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.3.tgz#7a3abf2972364e7d97770b827eec9a9e64002cfc"
+  integrity sha512-ocPAcVBUOryJEKe0z2KLd1l9EBa1r5mSwlKpExmrLzsnIzJo4axsoU9O2BjOTkDGDT4mZ0WFE5XKTlR3nLnZOA==
   dependencies:
-    "@babel/runtime" "^7.12.5"
-
-polished@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.1.tgz#40442cc973348e466f2918cdf647531bb6c29bfb"
-  integrity sha512-4MZTrfPMPRLD7ac8b+2JZxei58zw6N1hFkdBDERif5Tlj19y3vPoPusrLG+mJIlPTGnUlKw3+yWz0BazvMx1vg==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
+    "@babel/runtime" "^7.14.0"
 
 popmotion-pose@^3.4.10:
   version "3.4.11"
