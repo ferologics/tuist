@@ -22,7 +22,7 @@ gem "semantic", "~> 1.6"
 gem "down", "~> 5.2"
 
 group :test do
-  gem "mocha", "~> 1.12"
+  gem "mocha", "~> 1.13"
   gem "minitest"
   gem "minitest-reporters"
 end
