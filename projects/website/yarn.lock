@@ -2552,18 +2552,18 @@
     "@theme-ui/parse-props" "^0.6.2"
     deepmerge "^4.2.2"
 
+"@theme-ui/css@0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.10.0.tgz#871f63334fb138491406c32f8347d53b19846a9b"
+  integrity sha512-Up3HqXoy2ERn/9gVxApCSl2n9vwtHBwPrYlMyEjX0YPs/rxmo+Aqe3kAxO+SG9idMw08mtdaDfMIFaPsBE5ovA==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    csstype "^3.0.5"
+
 "@theme-ui/css@0.3.5":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.3.5.tgz#cfd228c74bcc7840a7fe9e507858486ee4d403dc"
   integrity sha512-XqsyXmifbnHOui1flSq4V7Lb3U+06Dbn2Q/leyr/cRd6Xgc0naiztdmD0MbXNvxgU51a2Ur9hyP4PnO5wE0yRg==
-
-"@theme-ui/css@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0.tgz#4fca3a2e730da232fbb67a1431bf7199ae6db977"
-  integrity sha512-+44BewW6nM4E4Fg4viutWV3y/AFxBDPgceStPoKNMWKB2h28KXFuEJIOyHse8sX39Keg/RIIcBk2q0EcDpB+LQ==
-  dependencies:
-    "@emotion/react" "^11.1.1"
-    csstype "^3.0.5"
 
 "@theme-ui/css@^0.6.2":
   version "0.6.2"
@@ -2746,12 +2746,12 @@
     "@theme-ui/core" "^0.6.2"
     "@theme-ui/mdx" "^0.6.2"
 
-"@theme-ui/typography@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@theme-ui/typography/-/typography-0.6.2.tgz#656c7909a044f0aa8267e50363642e21d65ea86f"
-  integrity sha512-CZ22L1bkaImU8pNZjGghE9BZ6mr2wrqmvggcKdp9bZAO83Z23DHpdDyrf2bhKEcOK69krhF4K7woR/bIzTeCpg==
+"@theme-ui/typography@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/typography/-/typography-0.10.0.tgz#1a143ca980ca5619ef5b2823f7ae96cd200f5976"
+  integrity sha512-OISI85zfYTzXMQAKHIoEnAMzZffQPh+kBvhuKlSBGcZ32ohbXDuhZxtHcSMuIdO2GNTIqayWxKX0u0zzO+VsdA==
   dependencies:
-    "@theme-ui/css" "^0.6.2"
+    "@theme-ui/css" "0.10.0"
     "@types/compass-vertical-rhythm" "^1.4.1"
     "@types/modularscale" "^2.0.0"
     "@types/typography" "^0.16.3"
